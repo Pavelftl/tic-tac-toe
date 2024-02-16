@@ -1,0 +1,23 @@
+.text {
+	text-align: center;
+	padding-bottom: 20px;
+
+	font-weight: bold;
+	margin: 10px auto;
+
+	cursor: pointer;
+	position: relative;
+	&::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: -0.5rem;
+		height: 0.125rem;
+		width: 0;
+		background-color: #292d2c;
+		transition-duration: 200ms;
+	}
+	&:hover::after {
+		width: 100%;
+	}
+}

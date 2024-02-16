@@ -1,0 +1,19 @@
+.field {
+	padding: 10px 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: center;
+
+	.item {
+		height: 70px;
+		width: 70px;
+		border: 1px solid #0002;
+
+		background-color: inherit;
+		cursor: default;
+		font-size: 30px;
+		padding-inline: 0;
+	}
+}
